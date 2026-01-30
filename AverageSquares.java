@@ -26,10 +26,10 @@ public class AverageSquares {
 
         int sum = 0;
         int currentNum = startNum;
-        while (currentNum <= endNum){
+        do{
             sum += currentNum * currentNum;
             currentNum ++;
-        }
+        }while(currentNum<=endNum);
         System.out.println((double)sum / (double)(endNum - startNum + 1));
     }
 }
