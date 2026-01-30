@@ -4,8 +4,8 @@ public class DemoIncrement {
         // Demonstration of the increment operator
         int a = 3;
         int b = a++ + 5;
-        int x = 3;
-        int y = ++x + 5;
+        int x = (x>0)?x:0;
+        int y = (y<100)?1:0;
 
         int p = 3;
         p++;
